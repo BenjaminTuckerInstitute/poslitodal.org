@@ -287,6 +287,7 @@ h2 {
 
 #process-container {
 	width: 100%;
+	min-width: 1000px;
 	background: #088074;
 	margin: 50px 0 50px 0;
 	padding: 50px 0 50px 0;
@@ -318,6 +319,7 @@ h2 {
 
 #contacts-container {
 	width: 100%;
+	min-width: 1000px;
 	background: #333333;
 	padding: 25px 0 25px 0;
 }
@@ -330,7 +332,8 @@ h2 {
 
 .contact {
 	float: left;
-	width: 250px;
+	width: 230px;
+	padding: 0 10px 0 10px;
 }
 
 .contact p {
@@ -340,7 +343,8 @@ h2 {
 .contact a {
 	text-decoration: none;
 	color: #eeeeee;
-	float: right;
+	display: block;
+	text-align: right;
 }
 
 .separate {
