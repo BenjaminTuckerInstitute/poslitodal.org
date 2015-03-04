@@ -331,7 +331,7 @@ h2 {
 }
 
 .contact {
-	float: left;
+	float: right;
 	width: 230px;
 	padding: 0 10px 0 10px;
 }
@@ -349,4 +349,12 @@ h2 {
 
 .separate {
 	text-align: center;
+}
+
+.contact-page {
+	padding: 133px 0 33px 0;
+}
+
+.contact-page p {
+	margin: 10px 0 10px 0;
 }
